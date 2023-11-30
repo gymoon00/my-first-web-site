@@ -1,0 +1,51 @@
+<!docutype html>
+<html>
+<head>
+    <title>WEB1 - HTML</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+        <h1><a href="index.html">WEB</a></h1>
+    <ol>
+        <li><a href="1.html">HTML</a></li>
+        <li><a href="2.html">CSS</a></li>
+        <li><a href="3.html">JavaScript</a></li>
+    </ol>
+
+    <h2>HTML</h2>
+    <h3><u>H</u>yper<u>T</u>ext <u>M</u>arkup <u>L</u>anguage</h3>
+    <img src="HTML.jpg" width="480">
+
+    <p style="margin-top:40px;">
+        <a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="_blank" title="HTML5 specification">HTML</a>은 구조를 설계할 때 사용되는 언어로 hyper link system을 가지고 있으며, 흔히 말하는 web page를 위한 markup language라고 할 수 있다. 
+    <br>HTML tag는 element라고도 부르며, HTML 문서를 구성하는 기본 단위이다.
+    </p>
+
+    <p>br은 일반적인 줄 바꿈이고, p는 단락을 나타내므로 좀 더 정보로써 가치 있는 HTML이 된다. 하지만 p tag는 단점이 있다. <br>br tag는 줄 바꿈을 많이 하고 싶을 때 여러 번 사용하면 되지만, p tag는 정해진 여백만큼만 벌어지게 되어 시각적으로 자유도가 떨어진다.
+    <br>하지만 HTML과는 다른 언어인 CSS를 활용하면 자유롭게 줄 간격을 조정할 수 있다.
+    </p>
+
+    <p>
+        tag에는 속성, 즉 'attribute'가 있다. 이 attribute의 위치는 상관없다. tag의 이름만으로 정보가 부족할 때는 이런 attribute를 통해 더 많은 의미를 부여할 수 있게 되는 것이다.
+    <br>tag가 서로 포함 관계로 연결되어 있을 때, 포함하고 있는 tag를 'parent element', 포함된 tag를 'child element'라고 부른다. HTML에 있는 여러 tag들은 서로 부모 자식 관계가 막 바뀐다.
+    <br>그런데 어떤 tag들은 자식이 있는 곳에 항상 부모가 있고, 부모가 있는 곳에 항상 특정한 자식 tag가 있는, 아주 사이 좋은 tag들이 몇 가지 있다.
+    </p>
+
+    <p>
+        Parent element 'ul' & Child tag 'li'
+    우리가 코딩을 할 때는 극단적 사고가 필요하다.<br>여기서 'ul (unordered list)' 대신 'ol (ordered list)'을 써준다면 숫자가 자동으로 numbering이 가능하다. 1억개를 일일이 수정하지 않고 단 1초만에 가능하게 되는 것이다.
+    </p>
+
+    <p>
+        'title' tag는 web page의 제목을 사용자에게 명시적으로 알려줄 수 있을 뿐만 아니라, search engine과 같은 기계들은 바로 이 'title'이라는 것을 책의 표지와 같은 정보로 사용한다.<br>그렇기 때문에 web page를 만들 때 'tltle' tag를 쓰지 않는 것은 굉장히 손해다.
+    밑의 코드들은 본문이고, 위의 두 코드 줄은 본문을 설명한다. <br>즉, 'title'이라고 하는 tag는 본문의 제목이 무엇인지를 설명하고 있고, 'meta charset="utf-8"'이라는 것은 이 본문이 utf-8이라는 방식으로 저장되어 있다는 것을 설명한다.
+    <br>또한 본문은 'body'라는 tag로 묶는다. 그리고 본문을 설명하는 tag는 'head' tag로 묶는다. 즉 HTML에 있는 모든 tag는 'head' 또는 'body' tag, 이 둘 중 하나 아래에 놓이게 된다.<br>그리고 이들을 감싸는 최상위층 tag가 바로 'html'이다. 이 tag 위에 관용적으로 '이 문서는 HTML이다'라는 뜻으로 '!docutype html'이라고 써주면 된다.
+    </p>
+
+    <p>
+        'a (anchor)' tag는 link(hypertext)를 달아준다. 'a' 뒤에 hepertext+reference인 'href'를 써주고 링크를 붙여넣기 해준다.<br>만약 클릭했을 때 새 탭을 열고 싶으면 'target=_blank'를 써준다.<br>또는 링크가 클릭하기 전에 무엇인지 알려주고 싶다면 ToolTip(마우스를 특정 구성 요소에 가져갔을 때 상황에 맞는 도움말이나 정보를 표시함) 'title="설명"'을 적어준다.
+    </p>
+
+</body>
+</html>
